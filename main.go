@@ -16,7 +16,7 @@ func main() {
 		return
 	}
 
-	aof, err := NewAof("database.aof")
+	aof, err := NewAof("db/database.aof")
 	if err != nil {
 		fmt.Println(err)
 		return
